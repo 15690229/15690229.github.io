@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #088A85;
+  overflow-x: hidden;
+}
+ .bo{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ background-color: white;
+  color: black;
+  border: 2px solid #008CBA; 
+ }
+#botones{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img {
+  border-radius: 50%;
+  margin-left: 85px;
+}
+#order{
+  text-align: center;
+  font-family: Book Antiqua;
+}
+
+#titulo{
+  color:#A2E1F0;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: Book Antiqua;
+}
+#parrafo{
+  font-size: 16px;
+  text-align: justify;
+  align-content: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 200px;
+  font-family: Book Antiqua;
+}
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #DDD;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 400px;
+  padding-left: 20px;
+}
+#numeros{
+  text-align: center;
+  font-size: 10px;
+  color:white;
+  width: 40px;
+  height: 60;
+  background-color: Red;
+
+}
